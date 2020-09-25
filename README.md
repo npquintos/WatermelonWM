@@ -1,8 +1,10 @@
 # WWM
-Watermelon Window Manager - A fork of the InstantWM, A refreshing window manager, fast, tiled, and Vim-inspired
+Watermelon Window Manager - A fork of the InstantWM, A refreshing window manager, fast, tiled, and Vim-inspired.
+
+InstantWM is a very excellent window manager. To me, it is the best in terms of functionality. However, I have a very short memory and key combinations involving Shift, Alt, Super, and Ctrl are just so easy to forget. So I decided to change them to be as close to vim workflow which is almost second nature to me.Windows will be treated like letters in vim, with window titles treated like words that could be searched. Since I also use windows a lot, I decided to use similar mouse gestures.  With the mouse, windows will be treated like a file system where you use Ctrl-Select to select several non-adjacent windows. And of course, many of InstantOS characteristics will be retained as well.
 
 ## Design Principles
-All key/mouse combinations should be easy to remember and easy to type. It should be as few as possible and capitalize on shortcuts that are already in wide use and intuitive.
+
 
 Do not touch the vim/tmux key bindings. Anything that is directed to the window manager will be preceeded with the windows (Super) key, followed by nearest vim equivalent.
 
